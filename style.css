@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+}
+
+main {
+    justify-self: center;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 19.2rem;
+}
+
+.timer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12.6rem;
+    color: #323238;
+    margin-bottom: 1.7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    gap: 4rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cards button {
+    background: #E1E1E6;
+    border-radius: 24px;
+    width: 138px;
+    height: 152px;
+}
+
+#selectedButton {                           /* When card selected, change background cards to blue. */
+    background: #02799D;  
+}
+
+aside button.iconTurnsWhite svg path {      /* When card selected, change the icon color, black to white. */        
+    fill: white;
+}
+
+.hide {                                     /* button pause. */
+    display: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 3.2rem;
+    column-gap: 3.2rem;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
