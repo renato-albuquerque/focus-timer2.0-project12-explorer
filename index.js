@@ -15,7 +15,7 @@ const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-cre
 
 const audioForest = new Audio("audios/audio-forest.wav")
 const audioRain = new Audio ("audios/audio-rain.wav")
-const audioCofeeShop = new Audio("audios/coffeeshop.wav")
-const audioFirePlace = new Audio("audios/fireplace.wav")
+const audioCoffeeShop = new Audio("audios/audio-coffeeshop.wav")
+const audioFirePlace = new Audio("audios/audio-fireplace.wav")
 
 
